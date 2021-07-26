@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [FirefoxSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="LinkofTest(failed)">
+    <classes>
+      <class name="testNGAnnotation.TwoBrowserHandling">
+        <methods>
+          <include name="afirefox"/>
+          <include name="def"/>
+        </methods>
+      </class> <!-- testNGAnnotation.TwoBrowserHandling -->
+    </classes>
+  </test> <!-- LinkofTest(failed) -->
+</suite> <!-- Failed suite [FirefoxSuite] -->
